@@ -195,4 +195,23 @@ class AuthorizeRequest extends AbstractRequest
     {
         return $this->getParameter('createCard');
     }
+
+    /**
+     * Get the session id.
+     *
+     * @return string
+     */
+    public function getSessionId()
+    {
+        return $this->getParameter('sessionId');
+    }
+    /**
+     * Set the session id.
+     *
+     * @param string $value
+     */
+    public function setSessionId($value)
+    {
+        return $this->setParameter('sessionId', $value);
+    }
 }
