@@ -130,6 +130,12 @@ class AuthorizeRequest extends AbstractRequest
             'BillingDetails'     => $billingDetails
         ];
 
+        if ($this->getSessionId()) {
+             $data['FraudDetails'] = [
+                'SessionId'	     => $this->getSessionId()
+            ];
+        }
+
         return $data;
     }
 
