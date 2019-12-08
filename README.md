@@ -15,7 +15,7 @@ Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply
 to your `composer.json` file and update or install directly with composer require:
 
 ```
-$ php composer.phar require strikewood/omnipay-first-atlantic-commerce:dev-master
+$ php composer.phar require flowstudio/omnipay-first-atlantic-commerce:dev-master
 ```
 This package strives to use Semantic Versioning as explained [here](http://semver.org/).
 
