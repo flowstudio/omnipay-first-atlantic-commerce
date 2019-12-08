@@ -1,5 +1,5 @@
 {
-    "name": "strikewood/omnipay-first-atlantic-commerce",
+    "name": "flowstudio/omnipay-first-atlantic-commerce",
     "description": "First Atlantic Commerce driver for the Omnipay PHP payment processing library",
     "keywords": [
         "first atlantic commerce",
@@ -8,7 +8,7 @@
         "omnipay",
         "gateway"
     ],
-    "homepage": "https://github.com/strikewood/omnipay-first-atlantic-commerce",
+    "homepage": "https://github.com/flowstudio/omnipay-first-atlantic-commerce",
     "license": "MIT",
     "authors": [
         {
@@ -25,6 +25,8 @@
         "omnipay/tests": "~2.0"
     },
     "autoload": {
-        "psr-4": { "Omnipay\\FirstAtlanticCommerce\\" : "src" }
+        "psr-4": {
+            "Omnipay\\FirstAtlanticCommerce\\": "src"
+        }
     }
 }

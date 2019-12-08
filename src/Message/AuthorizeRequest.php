@@ -131,7 +131,7 @@ class AuthorizeRequest extends AbstractRequest
         ];
 
         if ($this->getSessionId()) {
-             $data['FraudDetails'] = [
+            $data['FraudDetails'] = [
                 'SessionId'	     => $this->getSessionId()
             ];
         }
